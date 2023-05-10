@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Libro</title>
+</head>
+<body>
+    <h1>Editar Libro</h1>
+    <form name="formulario" method="post" action="agregar_libro.php">
+        <table>
+            <tbody>
+                <tr>
+                    <td>Año</td>
+                    <td>
+                        <input type="text" name="anio" maxlength="60" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Autor</td>
+                    <td>
+                        <input type="text" name="autor" maxlength="40" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Titulo</td>
+                    <td>
+                        <input type="text" name="titulo" maxlength="40">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ubicacion</td>
+                    <td>
+                        <input type="text" name="ubicacion" maxlength="40">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Especialidad</td>
+                    <td>
+                        <input type="text" name="especialidad" maxlength="40">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Editorial</td>
+                    <td>
+                        <input type="text" name="editorial" maxlength="40">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Guardar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
